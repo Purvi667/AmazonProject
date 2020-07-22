@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<root ptr="0x3c677b0" id="262" symbol="11SwRootFrame" lower="263">
+ <shells>
+  <swCursorShell>
+   <swViewShell/>
+   <m_pCurrentCursor>
+    <swPaM>
+     <point>
+      <swPosition nNode="9" nContent="0"/>
+     </point>
+    </swPaM>
+   </m_pCurrentCursor>
+  </swCursorShell>
+ </shells>
+ <infos>
+  <bounds left="284" top="284" width="14101" height="15840"/>
+  <prtBounds left="0" top="0" width="14101" height="15840"/>
+ </infos>
+ <page ptr="0x7fbbe2265658" id="263" symbol="11SwPageFrame" upper="262" lower="264">
+  <infos>
+   <bounds left="2145" top="284" width="12240" height="15840"/>
+   <prtBounds left="1134" top="1134" width="9972" height="13572"/>
+  </infos>
+  <body ptr="0x7fbbe2267578" id="264" symbol="11SwBodyFrame" upper="263" lower="265">
+   <infos>
+    <bounds left="3279" top="1418" width="9972" height="13572"/>
+    <prtBounds left="0" top="0" width="9972" height="13572"/>
+   </infos>
+   <txt ptr="0x7fbbc23a9960" id="265" symbol="11SwTextFrame" next="266" upper="264" txtNodeIndex="9">
+    <infos>
+     <bounds left="3279" top="1418" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+package com.simplilearn.testscript;    <Text nLength="35" nType="POR_PARA" nHeight="227" nWidth="4200"/>
+    <LineBreak nWidth="4200"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc23a9a68" id="266" symbol="11SwTextFrame" next="267" prev="265" upper="264" txtNodeIndex="10">
+    <infos>
+     <bounds left="3279" top="1645" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc23a9b70" id="267" symbol="11SwTextFrame" next="268" prev="266" upper="264" txtNodeIndex="11">
+    <infos>
+     <bounds left="3279" top="1872" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+import org.junit.After;    <Text nLength="23" nType="POR_PARA" nHeight="227" nWidth="2760"/>
+    <LineBreak nWidth="2760"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc23a9c78" id="268" symbol="11SwTextFrame" next="269" prev="267" upper="264" txtNodeIndex="12">
+    <infos>
+     <bounds left="3279" top="2099" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+import org.junit.Before;    <Text nLength="24" nType="POR_PARA" nHeight="227" nWidth="2880"/>
+    <LineBreak nWidth="2880"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc23a9d80" id="269" symbol="11SwTextFrame" next="270" prev="268" upper="264" txtNodeIndex="13">
+    <infos>
+     <bounds left="3279" top="2326" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+import org.junit.Test;    <Text nLength="22" nType="POR_PARA" nHeight="227" nWidth="2640"/>
+    <LineBreak nWidth="2640"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc23a9e88" id="270" symbol="11SwTextFrame" next="271" prev="269" upper="264" txtNodeIndex="14">
+    <infos>
+     <bounds left="3279" top="2553" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+import org.openqa.selenium.By;    <Text nLength="30" nType="POR_PARA" nHeight="227" nWidth="3600"/>
+    <LineBreak nWidth="3600"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394020" id="271" symbol="11SwTextFrame" next="272" prev="270" upper="264" txtNodeIndex="15">
+    <infos>
+     <bounds left="3279" top="2780" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+import org.openqa.selenium.WebDriver;    <Text nLength="37" nType="POR_PARA" nHeight="227" nWidth="4440"/>
+    <LineBreak nWidth="4440"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394128" id="272" symbol="11SwTextFrame" next="273" prev="271" upper="264" txtNodeIndex="16">
+    <infos>
+     <bounds left="3279" top="3007" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+import org.openqa.selenium.WebElement;    <Text nLength="38" nType="POR_PARA" nHeight="227" nWidth="4560"/>
+    <LineBreak nWidth="4560"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394230" id="273" symbol="11SwTextFrame" next="274" prev="272" upper="264" txtNodeIndex="17">
+    <infos>
+     <bounds left="3279" top="3234" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+import org.openqa.selenium.firefox.FirefoxDriver;    <Text nLength="49" nType="POR_PARA" nHeight="227" nWidth="5880"/>
+    <LineBreak nWidth="5880"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394338" id="274" symbol="11SwTextFrame" next="275" prev="273" upper="264" txtNodeIndex="18">
+    <infos>
+     <bounds left="3279" top="3461" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394440" id="275" symbol="11SwTextFrame" next="276" prev="274" upper="264" txtNodeIndex="19">
+    <infos>
+     <bounds left="3279" top="3688" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+public class SearchProductpage {    <Text nLength="32" nType="POR_PARA" nHeight="227" nWidth="3840"/>
+    <LineBreak nWidth="3840"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394548" id="276" symbol="11SwTextFrame" next="277" prev="275" upper="264" txtNodeIndex="20">
+    <infos>
+     <bounds left="3279" top="3915" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+*@Before    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="7" nType="POR_TXT" nHeight="227" nWidth="840"/>
+    <LineBreak nWidth="1549"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394650" id="277" symbol="11SwTextFrame" next="278" prev="276" upper="264" txtNodeIndex="21">
+    <infos>
+     <bounds left="3279" top="4142" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+*public void SetupDriver() {    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="27" nType="POR_TXT" nHeight="227" nWidth="3240"/>
+    <LineBreak nWidth="3949"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394758" id="278" symbol="11SwTextFrame" next="279" prev="277" upper="264" txtNodeIndex="22">
+    <infos>
+     <bounds left="3279" top="4369" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+**    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <LineBreak nWidth="1418"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394860" id="279" symbol="11SwTextFrame" next="280" prev="278" upper="264" txtNodeIndex="23">
+    <infos>
+     <bounds left="3279" top="4596" width="9972" height="454"/>
+     <prtBounds left="0" top="0" width="9972" height="454"/>
+    </infos>
+**System.setProperty(&quot;Webdriver.gecko.driver&quot;,&quot;/home/ubuntu/eclipse-workspace/SeleniumTestwd/Driver/geckodriver&quot;);    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="66" nType="POR_TXT" nHeight="227" nWidth="7920"/>
+    <LineBreak nWidth="9338"/>
+    <Text nLength="46" nType="POR_LAY" nHeight="227" nWidth="5520"/>
+    <LineBreak nWidth="5520"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394968" id="280" symbol="11SwTextFrame" next="281" prev="279" upper="264" txtNodeIndex="24">
+    <infos>
+     <bounds left="3279" top="5050" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+**driver = new FirefoxDriver();    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="29" nType="POR_TXT" nHeight="227" nWidth="3480"/>
+    <LineBreak nWidth="4898"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394a70" id="281" symbol="11SwTextFrame" next="282" prev="280" upper="264" txtNodeIndex="25">
+    <infos>
+     <bounds left="3279" top="5277" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+*}    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TXT" nHeight="227" nWidth="120"/>
+    <LineBreak nWidth="829"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394b78" id="282" symbol="11SwTextFrame" next="283" prev="281" upper="264" txtNodeIndex="26">
+    <infos>
+     <bounds left="3279" top="5504" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+*WebDriver driver;    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="17" nType="POR_TXT" nHeight="227" nWidth="2040"/>
+    <LineBreak nWidth="2749"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394c80" id="283" symbol="11SwTextFrame" next="284" prev="282" upper="264" txtNodeIndex="27">
+    <infos>
+     <bounds left="3279" top="5731" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+*@Test    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="5" nType="POR_TXT" nHeight="227" nWidth="600"/>
+    <LineBreak nWidth="1309"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394d88" id="284" symbol="11SwTextFrame" next="285" prev="283" upper="264" txtNodeIndex="28">
+    <infos>
+     <bounds left="3279" top="5958" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+*public void SearchForProduct() throws InterruptedException {    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="60" nType="POR_TXT" nHeight="227" nWidth="7200"/>
+    <LineBreak nWidth="7909"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2394e90" id="285" symbol="11SwTextFrame" next="286" prev="284" upper="264" txtNodeIndex="29">
+    <infos>
+     <bounds left="3279" top="6185" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+**final String siteUrl = &quot;https://www.amazon.in/&quot;;    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="48" nType="POR_TXT" nHeight="227" nWidth="5760"/>
+    <LineBreak nWidth="7178"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395028" id="286" symbol="11SwTextFrame" next="287" prev="285" upper="264" txtNodeIndex="30">
+    <infos>
+     <bounds left="3279" top="6412" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+**driver.get(siteUrl);    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="20" nType="POR_TXT" nHeight="227" nWidth="2400"/>
+    <LineBreak nWidth="3818"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395130" id="287" symbol="11SwTextFrame" next="288" prev="286" upper="264" txtNodeIndex="31">
+    <infos>
+     <bounds left="3279" top="6639" width="9972" height="454"/>
+     <prtBounds left="0" top="0" width="9972" height="454"/>
+    </infos>
+**WebElement SearchField = driver.findElement(By.id(&quot;twotabsearchtextbox&quot;));    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="25" nType="POR_TXT" nHeight="227" nWidth="3000"/>
+    <LineBreak nWidth="4418"/>
+    <Text nLength="49" nType="POR_LAY" nHeight="227" nWidth="5880"/>
+    <LineBreak nWidth="5880"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395238" id="288" symbol="11SwTextFrame" next="289" prev="287" upper="264" txtNodeIndex="32">
+    <infos>
+     <bounds left="3279" top="7093" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+**SearchField.sendKeys(&quot;Dell Laptop&quot;);    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="36" nType="POR_TXT" nHeight="227" nWidth="4320"/>
+    <LineBreak nWidth="5738"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395340" id="289" symbol="11SwTextFrame" next="290" prev="288" upper="264" txtNodeIndex="33">
+    <infos>
+     <bounds left="3279" top="7320" width="9972" height="681"/>
+     <prtBounds left="0" top="0" width="9972" height="681"/>
+    </infos>
+**WebElement Submit = driver.findElement(By.xpath(&quot;/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input&quot;));    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="20" nType="POR_TXT" nHeight="227" nWidth="2400"/>
+    <LineBreak nWidth="3818"/>
+    <Text nLength="83" nType="POR_LAY" nHeight="227" nWidth="9960"/>
+    <LineBreak nWidth="9960"/>
+    <Text nLength="18" nType="POR_LAY" nHeight="227" nWidth="2160"/>
+    <LineBreak nWidth="2160"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395448" id="290" symbol="11SwTextFrame" next="293" prev="289" upper="264" txtNodeIndex="34">
+    <infos>
+     <bounds left="3279" top="8001" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+**Submit.click();    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="15" nType="POR_TXT" nHeight="227" nWidth="1800"/>
+    <LineBreak nWidth="3218"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395550" id="293" symbol="11SwTextFrame" next="294" prev="290" upper="264" txtNodeIndex="35">
+    <infos>
+     <bounds left="3279" top="8228" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+**Thread.sleep(20000);    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="20" nType="POR_TXT" nHeight="227" nWidth="2400"/>
+    <LineBreak nWidth="3818"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395658" id="294" symbol="11SwTextFrame" next="295" prev="293" upper="264" txtNodeIndex="36">
+    <infos>
+     <bounds left="3279" top="8455" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395760" id="295" symbol="11SwTextFrame" next="296" prev="294" upper="264" txtNodeIndex="37">
+    <infos>
+     <bounds left="3279" top="8682" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+}    <Text nLength="1" nType="POR_PARA" nHeight="227" nWidth="120"/>
+    <LineBreak nWidth="120"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395868" id="296" symbol="11SwTextFrame" next="297" prev="295" upper="264" txtNodeIndex="38">
+    <infos>
+     <bounds left="3279" top="8909" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+*@After    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="6" nType="POR_TXT" nHeight="227" nWidth="720"/>
+    <LineBreak nWidth="1429"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395970" id="297" symbol="11SwTextFrame" next="298" prev="296" upper="264" txtNodeIndex="39">
+    <infos>
+     <bounds left="3279" top="9136" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+*public void closeDriver() {    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="27" nType="POR_TXT" nHeight="227" nWidth="3240"/>
+    <LineBreak nWidth="3949"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395a78" id="298" symbol="11SwTextFrame" next="299" prev="297" upper="264" txtNodeIndex="40">
+    <infos>
+     <bounds left="3279" top="9363" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+**driver.close();    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="15" nType="POR_TXT" nHeight="227" nWidth="1800"/>
+    <LineBreak nWidth="3218"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395b80" id="299" symbol="11SwTextFrame" next="300" prev="298" upper="264" txtNodeIndex="41">
+    <infos>
+     <bounds left="3279" top="9590" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+*}    <Text nLength="1" nType="POR_TABLEFT" nHeight="227" nWidth="709"/>
+    <Text nLength="1" nType="POR_TXT" nHeight="227" nWidth="120"/>
+    <LineBreak nWidth="829"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395c88" id="300" symbol="11SwTextFrame" next="301" prev="299" upper="264" txtNodeIndex="42">
+    <infos>
+     <bounds left="3279" top="9817" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x7fbbc2395d90" id="301" symbol="11SwTextFrame" prev="300" upper="264" txtNodeIndex="43">
+    <infos>
+     <bounds left="3279" top="10044" width="9972" height="227"/>
+     <prtBounds left="0" top="0" width="9972" height="227"/>
+    </infos>
+}    <Text nLength="1" nType="POR_PARA" nHeight="227" nWidth="120"/>
+    <LineBreak nWidth="120"/>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+</root>
